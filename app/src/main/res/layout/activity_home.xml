@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.asus.boluomidemo.Activity.HomeActivity">
+
+
+    <FrameLayout
+        android:id="@+id/myframe"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:layout_above="@+id/mylin"
+        android:layout_alignParentStart="true"></FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/mylin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:background="#44bdb2">
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:drawableTop="@drawable/selector1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:layout_weight="1"
+                android:button="@null"
+
+                android:id="@+id/btn_shipin"
+                android:gravity="center_horizontal"
+                android:padding="3dp"
+                android:text="视 频"
+                android:textColor="#0C6461" />
+
+            <RadioButton
+
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_shucheng"
+                android:layout_marginTop="2dp"
+                android:layout_weight="1"
+                android:button="@null"
+                android:drawableTop="@drawable/selector2"
+                android:gravity="center_horizontal"
+                android:padding="3dp"
+                android:text="书 城"
+                android:textColor="#0C6461" />
+
+            <RadioButton
+                android:checked="true"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_home"
+                android:layout_marginTop="2dp"
+                android:layout_weight="1"
+                android:button="@null"
+                android:drawableTop="@drawable/selector3"
+                android:gravity="center_horizontal"
+                android:padding="3dp"
+                android:text="主页"
+                android:textColor="#0C6461" />
+
+            <RadioButton
+                android:id="@+id/jiejie"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:layout_weight="1"
+                android:button="@null"
+                android:drawableTop="@drawable/selector4"
+                android:gravity="center_horizontal"
+                android:padding="3dp"
+                android:text="结 界"
+                android:textColor="#0C6461" />
+
+            <RadioButton
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_maimai"
+                android:layout_marginTop="2dp"
+                android:layout_weight="1"
+                android:button="@null"
+                android:drawableTop="@drawable/selector5"
+                android:gravity="center_horizontal"
+                android:padding="3dp"
+                android:text="买 买"
+                android:textColor="#0C6461" />
+
+            <RadioButton
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_my"
+                android:layout_marginTop="2dp"
+                android:layout_weight="1"
+                android:button="@null"
+                android:drawableTop="@drawable/selector6"
+                android:gravity="center_horizontal"
+                android:padding="3dp"
+                android:text="我 的"
+                android:textColor="#0C6461" />
+
+        </RadioGroup>
+    </LinearLayout>
+</RelativeLayout>

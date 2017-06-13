@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:src="@drawable/e"
+        android:id="@+id/itme_iv"
+        android:layout_width="250dp"
+        android:layout_height="210dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/itme_iv"
+        android:background="#fff"
+        android:layout_alignLeft="@+id/itme_iv"
+        android:layout_alignStart="@+id/itme_iv"
+        android:layout_alignRight="@+id/itme_iv"
+        android:layout_alignEnd="@+id/itme_iv">
+
+        <TextView
+            android:id="@+id/itme_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="我的未婚妻非人类"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:textColor="#2e2e2e"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/itme_tvtwo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="35dp"
+            android:text="为什么要伤害我的眼睛"
+            android:textColor="#afafaf"
+            android:textSize="16dp" />
+    </RelativeLayout>
+</RelativeLayout>
